@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+}
+
+.homecontainer {  
+    background: url('../pics/Pattern.svg') center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.homesecondary {
+    display : flex;
+    flex-direction: column;
+    margin-top : 100px;
+}
+
+.heading {
+    margin-top : 50px;
+    font-size: 48px;
+    color : #5E56E7;
+    font-weight: bold;
+    height : 80px;
+}
+
+.subheading {
+    font-size : 16px;
+    color : #333333;
+    font-weight: bold;
+}
+
+.tagsbackground {
+    background-color: #F8F7FF;
+    padding-bottom: 40px;
+    padding-top : 15px;
+    width : 100%;
+}
+
+.homepagetags {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width : 400px) {
+    body {
+        width : 100%;
+    }
+
+    .homesecondary {
+        margin-top : 0px;
+    }
+
+    .heading {
+        margin-top : 40px;
+        display : flex;
+        justify-content: flex-start;
+        align-items : flex-end;
+        font-size : 31px;
+    }
+
+    .subheading {
+        font-size : 13px;
+    }
+
+    .tagsbackground {
+        padding-top : 30px;
+    }
+
+    .tagsbackground {
+        height : 475px;
+    }
+}
